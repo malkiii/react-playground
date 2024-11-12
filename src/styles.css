@@ -14,3 +14,10 @@
 :root {
   --font-sans: 'Inter';
 }
+
+@layer base {
+  body {
+    @apply min-h-dvh overflow-hidden font-sans antialiased;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
