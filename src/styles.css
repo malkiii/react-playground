@@ -17,7 +17,7 @@
 
 @layer base {
   body {
-    @apply min-h-dvh overflow-hidden font-sans antialiased;
+    @apply h-dvh overflow-hidden font-sans antialiased;
     -webkit-tap-highlight-color: transparent;
   }
 }
