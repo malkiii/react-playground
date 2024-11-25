@@ -16,8 +16,13 @@
 }
 
 @layer base {
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: #fff4 #151515;
+  }
+
   body {
-    @apply h-dvh overflow-hidden font-sans antialiased;
+    @apply h-dvh overflow-x-hidden font-sans antialiased;
     -webkit-tap-highlight-color: transparent;
   }
 }
